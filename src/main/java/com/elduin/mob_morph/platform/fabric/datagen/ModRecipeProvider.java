@@ -1,8 +1,8 @@
-package com.example.modtemplate.platform.fabric.datagen;
+package com.elduin.mob_morph.platform.fabric.datagen;
 
 //? fabric && != 1.19.2 {
 
-import com.example.modtemplate.ModTemplate;
+import com.elduin.mob_morph.ModTemplate;
 
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.core.HolderLookup;

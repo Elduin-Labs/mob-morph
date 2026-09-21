@@ -56,3 +56,8 @@ bin/
 .idea/runConfigurations/*
 !.idea/runConfigurations/Run_Active_Client.xml
 !.idea/runConfigurations/Run_Active_Server.xml
+
+# never commit: dev runs, gradle caches, other people's mod jars
+run*/
+.gradle*/
+libs/

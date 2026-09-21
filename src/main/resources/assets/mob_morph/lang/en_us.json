@@ -1,0 +1,12 @@
+{
+  "key.mob_morph.open_menu": "Morph menu",
+
+  "screen.mob_morph.title": "Morph",
+  "screen.mob_morph.be_yourself": "Be yourself again",
+  "screen.mob_morph.nothing_yet": "Kill a mob to unlock it.",
+
+  "message.mob_morph.unlocked": "Unlocked %s!",
+  "message.mob_morph.morphed": "You are a %s now.",
+  "message.mob_morph.unmorphed": "You are yourself again.",
+  "message.mob_morph.not_unlocked": "You have not killed one of those yet."
+}
