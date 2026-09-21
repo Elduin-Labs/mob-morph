@@ -20,7 +20,7 @@ public final class MobMorphClient {
 			"key.mob_morph.open_menu",
 			InputConstants.Type.KEYSYM,
 			GLFW.GLFW_KEY_B,
-			"key.categories.misc");
+			KeyMapping.Category.MISC);
 
 	private MobMorphClient() {
 	}

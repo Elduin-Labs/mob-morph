@@ -90,7 +90,7 @@ public final class MorphServer {
 		applyFlight(player, type);
 
 		Identifier id = type == null ? null : Morphs.idOf(type);
-		broadcast(player.getServer(),
+		broadcast(player.level().getServer(),
 				new MorphNet.SyncMorph(player.getUUID(), id == null ? "" : id.toString()));
 
 		player.sendSystemMessage(type == null
