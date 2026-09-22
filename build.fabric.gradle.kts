@@ -46,7 +46,7 @@ loom {
 		ideConfigGenerated(true)
 		runDir = "run/"
 		environment = "client"
-		programArgs("--username=Dev")
+		programArgs("--username=Elduin")
 		configName = "Fabric Client"
 	}
 	runs.named("server") {
