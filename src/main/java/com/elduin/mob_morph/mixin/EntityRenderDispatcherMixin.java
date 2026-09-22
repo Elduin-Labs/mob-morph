@@ -8,6 +8,7 @@ import net.minecraft.client.renderer.entity.EntityRenderDispatcher;
 import net.minecraft.client.renderer.entity.state.EntityRenderState;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
+import dev.kikugie.fletching_table.annotation.MixinEnvironment;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -22,6 +23,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  * and draws the mob — model, texture, animations and all.
  */
 @Mixin(EntityRenderDispatcher.class)
+@MixinEnvironment(type = MixinEnvironment.Env.CLIENT)
 public abstract class EntityRenderDispatcherMixin {
 
 	@Inject(method = "extractEntity", at = @At("HEAD"), cancellable = true)
