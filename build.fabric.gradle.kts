@@ -52,7 +52,8 @@ loom {
 	runs.named("server") {
 		server()
 		ideConfigGenerated(true)
-		runDir = "run/"
+		// its own folder, so a test server and a test client can run side by side
+		runDir = "run-server/"
 		environment = "server"
 		configName = "Fabric Server"
 	}
